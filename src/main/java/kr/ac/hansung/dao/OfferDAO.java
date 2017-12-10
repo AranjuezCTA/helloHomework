@@ -56,7 +56,7 @@ public class OfferDAO {
 	
 	// query and return multiple objects
 	public List<Offer> getOffers() {
-		String sqlStatement = "select * from subject";
+		String sqlStatement = "select * from subject order by year asc, semester asc, sort asc";
 		
 		return jdbcTemplate.query(sqlStatement,
 				new RowMapper<Offer>() {
