@@ -12,9 +12,15 @@
 		<a href="${pageContext.request.contextPath}/offers"> 1. 학기별 이수 학점 조회</a>
 	</p>
 	
+
 	<p>
 		<a href="${pageContext.request.contextPath}/crateoffer"> 3. 수강신청하기 </a>
 	</p>
+	
+	<p>
+		<a href="${pageContext.request.contextPath}/newoffers"> 4. 수강신청 조회</a>
+	</p>
+	
 
 </body>
 </html>
