@@ -32,6 +32,7 @@
 <td align="center">${offer.credit}</td>
 
 </tr>
+
 </c:forEach>
 
 </table>
