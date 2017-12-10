@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>학사 정보 홈페이지</title>
 </head>
 <body>
 
@@ -13,7 +13,7 @@
 	</p>
 	
 	<p>
-		<a href="${pageContext.request.contextPath}/offers"> 2. 이수 구분별 학점 조회</a>
+		<a href="${pageContext.request.contextPath}/credit"> 2. 이수 구분별 학점 조회</a>
 	</p>
 
 	<p>
@@ -21,7 +21,7 @@
 	</p>
 	
 	<p>
-		<a href="${pageContext.request.contextPath}/offers"> 4. 수강신청 조회</a>
+		<a href="${pageContext.request.contextPath}/newoffers"> 4. 수강신청 조회</a>
 	</p>
 	
 

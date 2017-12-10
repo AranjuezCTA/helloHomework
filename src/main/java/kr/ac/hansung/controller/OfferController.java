@@ -46,6 +46,13 @@ public class OfferController {
 		return "crateoffer"; // view 쪽으로 넘긴다
 	}
 	
+	@RequestMapping("/credit") // 불러와서 모델에 저장하고 
+	public String credit(Model model) {
+		
+		
+		return "credit"; // view 쪽으로 넘긴다
+	}
+	
 	@RequestMapping("/docreate") // 불러와서 모델에 저장하고 
 	public String doCreate(Model model, @Valid Offer offer, BindingResult result) {
 		

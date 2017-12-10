@@ -10,7 +10,7 @@
 
 ${offer.subject} 가 추가되었습니다. <br>
 
-<a href="${pageContext.request.contextPath}/offers"> 확인하러 가기 </a>
+<a href="${pageContext.request.contextPath}/newoffers"> 확인하러 가기 </a>
 
 </body>
 </html>

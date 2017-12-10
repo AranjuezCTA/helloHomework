@@ -10,12 +10,32 @@
 <body>
 
 
-	<c:forEach var="offer" items="${newoffers}">
-		<p>
-			<c:out value="${offer}"> </c:out> 
-		</p>
-	</c:forEach>
+<table>
+<tr>
 
+<td width="50px" align="center">년도</td>
+<td align="center">학기</td>
+<td align="center">과목코드</td>
+<td align="center">과목명</td>
+<td align="center">구분</td>
+<td align="center">학점</td>
 
+</tr>
+
+<c:forEach var="offer" items="${offers}">
+<tr>
+
+<td align="center">${offer.year}</td>
+<td align="center">${offer.semester}</td>
+<td align="center">${offer.code}</td>
+<td align="center">${offer.subject}</td>
+<td align="center">${offer.sort}</td>
+<td align="center">${offer.credit}</td>
+
+</tr>
+
+</c:forEach>
+
+</table>
 </body>
 </html>
